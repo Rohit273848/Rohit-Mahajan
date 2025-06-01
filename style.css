@@ -55,28 +55,24 @@
   /* Hero section */
   .herosection {
     height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px 40px;
     background: #B8CFCE;
     gap: 40px;
-    flex-wrap: wrap;
+    
   }
   
   .intro {
-    flex: 1 1 500px;
+    /* flex: 1 1 500px; */
   }
   
   .headings h1.my-heading {
     font-family: 'Damion', cursive;
     font-size: 4rem;
-    color: #ffbb00;
+    color: #333446;
     margin-bottom: 10px;
   }
   
   .greet-heading span {
-    color: #ffbb00;
+    color: #52357B;
   }
   
   .sub-heading2 {
@@ -131,9 +127,12 @@
   .pic {
     flex: 1 1 400px;
     text-align: center;
+    height: 400px;
+    width: 800px;
   }
   
   .my-pic {
+    width: 100%;
     max-width: 100%;
     border-radius: 50%;
     box-shadow: 0 0 25px rgba(255, 187, 0, 0.5);
@@ -153,6 +152,7 @@
     margin-top: 50px;
     margin-bottom: 40px;
     font-weight: 700;
+    font-style: normal;
   }
   
   .container {
@@ -230,10 +230,10 @@
   }
   
   .about-image {
-    flex: 1 1 300px;
+    fex: 1 1 300px;
   }
   
-  .about-image img {
+  .about-image  {
     max-width: 100%;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
