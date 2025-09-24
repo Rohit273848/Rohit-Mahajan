@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +8,8 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="font.css">
 
     <link href="./src/output.css" rel="stylesheet">
 
@@ -25,13 +26,16 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
-
+<!-- font of about text -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <navbar class="flex justify-between ">
             <div class="logo">
-                <h2>Rohit M</h2>
+                <h2>Rohit<span></span></h2>
             </div>
             <ul class="w-xl subpixel-antialiased items-center text-lg gap-3.5 justify-between hidden md:flex">
                 <li class="menu-list-items">
@@ -59,17 +63,17 @@
     </header>
        
      <!-- Main hero banner -->
-     <section class="bg-white h-screen flex flex-col justify-around items-center md:flex-row  " id="home">
+     <section class="bg h-screen flex flex-col justify-around items-center md:flex-row  " id="home">
         <div class=" text-left">
           <div class="headings">
-            <h3 class="greet-heading"><span>नमस्ते</span>, I'm</h3>
-            <h1 class="my-heading text-olive" style="font-family: 'Damion', cursive;">Rohit Mahajan</h1>
-            <h2 class="sub-heading2">B.Tech Student</h2>
-            <h3 class="sub-heading2">
+            <h3 class="greet-heading" ><span class="text-white">नमस्ते</span>, I'm</h3>
+            <h1 class="my-heading text-olive text-black" style="font-family: 'Damion', cursive;">Rohit Mahajan</h1>
+            <h2 class="sub-heading2  text-white">B.Tech Student</h2>
+            <h3 class="sub-heading2 text-white">
               Crafting clean layouts with HTML, CSS & JS — exploring Node.js <br>
               on the path to full-stack.
             </h3>
-            <h3 class="sub-heading3">"Design with purpose. Code with passion."</h3>
+            <h3 class="sub-heading3 ">"Design with purpose. Code with passion."</h3>
           </div>
       
           <div class="social">
@@ -92,12 +96,8 @@
           </div>
         </div>
       
-        <div class="w-[400px] h-[400px] overflow-hidden">
-          <img 
-            src="https://tse1.mm.bing.net/th?id=OIP.GEQiIx1oTZAnRGY3XJQK8QHaHa&pid=Api&P=0&h=180" 
-            alt="Rohit Mahajan saving hello"
-            class="object-cover w-full h-full rounded-xl transition-transform duration-500 hover:scale-105 hover:shadow-lg cursor-pointer"
-          />
+        <div class="w-[400px] h-[500px] overflow-hidden">
+          
         </div>
         
       </section>
@@ -138,7 +138,7 @@
             <div class="flex justify-around">
                 <div class="text-left p-3.5 pr-10">
                     <h2>Who Am I?</h2>
-                    <p class="font-bold mt-2 text-xl">I am a B.Tech student with a passion for web development. ,<br>I love creating clean and efficient code, and I'm always eager to learn new technologies.</p>
+                    <p class="about mt-2 text-xl">I am a B.Tech student with a passion for web development. ,<br>I love creating clean and efficient code, and I'm always eager to learn new technologies.</p>
                 </div>
                 <div class=" w-96 h-auto rounded-2xl border overflow-hidden ">
                   <img src="./image/rohit.jpg" class=" object-cover transition-transform duration-500 hover:scale-105" alt="...">
